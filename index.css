@@ -1,23 +1,48 @@
 body{
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
-#header{
-    background-color: #FFCC66;
-    display: flexbox;
-    align-content: center;
-    border: outset #FFCC66;
-    border-radius: 10px;
-}
-h1{
-    font-size: 84px;
-    color: gray;
-    text-shadow: black 2px 2px;
-}
-#body{
-    background-color: bisque;
+.header{
+    background-color: cadetblue;
     text-align: center;
-
 }
-#fab{
-    margin-left: 832 px;
+#home{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: tomato;
+    position: sticky;
+}
+th{
+    padding-right: 15px;
+    padding-left: 15px;
+    border: solid 1px black;
+}
+    th:hover{
+    color: burlywood;
+    }
+    th:link{
+        color:Wheat;
+    }
+#ban{
+    height: auto;
+    max-width: 100%;
+    padding-top: 20px;
+}
+.main_page{
+    background-color: wheat;
+    margin-top: 10px;
+}
+.footer{
+    background-color: cadetblue;
+}
+#about{
+    text-align: left;
+    padding-right: 500px;
+    color: white;
+}
+#contactus{
+    text-align: right;
+    padding-left: 500px;
+    color: white;
 }
